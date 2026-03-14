@@ -586,11 +586,11 @@ input[type="submit"]:active {
 }
 
 .group-item-desc {
-  color: #ffffffba;
+  color: #000000;
 }
 
 .group-item-title {
-  color: #fff;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -608,14 +608,8 @@ input[type="submit"]:active {
   left: 0;
   right: 0;
   bottom: 0;
-  color: #fff;
+  color: #000000;
   text-align: center;
-  transform: translateY(100%);
-  transition: transform 0.4s linear;
-}
-
-.item:hover .item-box {
-  transform: translateY(60%);
 }
 
 .chat-box {
