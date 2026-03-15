@@ -570,13 +570,7 @@ input[type="submit"]:active {
   cursor: pointer;
   gap: 20px;
   width: 350px;
-  border: 1px solid #fff;
-  transition: filter 0.4s linear, transform 0.4s linear, box-shadow 0.4s linear;
-}
-
-.item:hover {
-  transform: scale(1.07);
-  box-shadow: 0 15px 40px #00000099;
+  border: 2px solid #000000;
 }
 
 .group-item-pic {
@@ -585,11 +579,8 @@ input[type="submit"]:active {
   border-top-right-radius: 20px;
 }
 
-.group-item-desc {
-  color: #000000;
-}
-
 .group-item-title {
+  margin-block: 0;
   color: #ffffff;
   text-align: center;
 }
@@ -597,19 +588,30 @@ input[type="submit"]:active {
 .item {
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 1100px;
-  height: 500px;
+  margin-inline: auto;
+  width: 70%;
+  height: 70%;
+  box-shadow: 0 0 20px #000;
+  border-radius: 50px;
+}
+
+.item-title {
+  padding-block: 40px;
 }
 
 .item-box {
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
   bottom: 0;
-  color: #000000;
+  padding: 20px 30px;
+  color: #fff;
   text-align: center;
+  border-radius: 20px;
+  border: 1px solid rgb(234, 234, 234);
+  backdrop-filter: blur(10px);
+}
+
+.group-item-desc {
+  display: none;
 }
 
 .chat-box {
