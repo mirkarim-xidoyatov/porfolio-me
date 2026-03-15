@@ -30,6 +30,35 @@ a {
   text-decoration-line: none;
 }
 
+.social-list {
+  display:flex;
+  align-items:center;
+  padding-block: 20px;
+}
+
+.social{
+  display:flex;
+  gap:20px;
+}
+
+.icon{
+  width:60px;
+  height:60px;
+  background:#0f0;
+  color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-radius:50%;
+  font-size:24px;
+  text-decoration:none;
+  transition:0.3s;
+}
+
+.icon:hover{
+  background: #ff0000;
+}
+
 .site-header {
   position: sticky;
   top: 0;
